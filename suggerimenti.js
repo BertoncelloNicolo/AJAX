@@ -18,6 +18,6 @@ function ShowSuggerimenti(str) {
             });
         }
     };
-    xhttp.open("GET", "Server.php?Papa=" + str, true);
+    xhttp.open("GET", "Server.php?ricerca=" + str, true);
     xhttp.send();
 }

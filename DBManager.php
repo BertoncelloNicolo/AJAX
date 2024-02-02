@@ -7,7 +7,7 @@ class DBManager
         $dsn = "mysql:dbname={$dbname};host=192.168.2.200";
         try
         {
-            $pdo = new PDO($dsn,'daniel_targa','wadded.Cancers.medicates.');
+            $pdo = new PDO($dsn,'nicolo_bertoncello','wadded.Cancers.medicates.');
             $pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
             return $pdo;
 

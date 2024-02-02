@@ -2,7 +2,7 @@
 require_once "DBManager.php";
 require_once "Parola.php";
 
-$str = $_GET['Papa'];
+$str = $_GET['ricerca'];
 $ListaParole = Parola::QuerySuggest($str);
 
 if ($ListaParole !== false) {

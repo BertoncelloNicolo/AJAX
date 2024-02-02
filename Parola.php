@@ -36,7 +36,7 @@ class Parola
 
     static function Connect()
     {
-        return DBManager::Connect("daniel_targa_Parole");
+        return DBManager::Connect("nicolo_bertoncello_parole");
     }
 }
 ?>
